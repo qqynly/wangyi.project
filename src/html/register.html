@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/register.min.css">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="register">
+        <form action="http://127.0.0.1:8080/wangyi.project/src/php/reg.php" method="post">
+            <div class="section">
+                <div class="title-item">
+                    <div class="title">
+                        帐号注册
+                    </div>
+                </div>
+                <div class="outer-box">
+                    <div class="inner-box">
+                        <div class="country-box">
+                            <select class="show-country form-control">
+                                <option>中国大陆</option>
+                                <option>香港</option>
+                                <option>台湾</option>
+                                <option>Andorra</option>
+                                <option>Anguilla</option>
+
+                            </select>
+                            <!---->
+                        </div>
+                        <div class=" hint ">
+                            成功注册帐号后，国家／地区将不能被修改
+                        </div>
+                        <div class=" phone-box ">
+                            <div class=" phone-code ">
+                                <select class="show-country form-control">
+                                    <option>+86</option>
+                                    <option>中国+86</option>
+                                    <option>India+91</option>
+                                    <option>香港+852</option>
+                                    <option>Anguilla</option>
+                                </select>
+                                <!---->
+                            </div>
+                            <input type=" text " password=" false " name="user_tel" placeholder=" 请输入手机号 " placeholder-class=" phone-pld " class="input1 input0">
+                        </div>
+                        <span class="tel_input"></span>
+                        <div class="user-box">
+                            <input type="text" placeholder=" 请输入用户名 " class=" input2" name="user_name">
+                            <span class="username_input"></span>
+                            <br>(4到16位 字母，数字，下划线，减号)
+                        </div>
+                        <span class="err_username"></span>
+                        <div class="pass-box">
+                            <input type="password" placeholder=" 请输入密码" class=" input1 input3" name="user_pwd">
+                        </div>
+                        <span class="password_input"></span>
+                        <br>(最少6位，包括至少1个大写字母，1个小写字母，1个数字，1个特殊字符)
+                        <div data-v-e8bc1554=" " class=" errTip-Box " style=" display: none; ">
+                            <div data-v-e8bc1554=" " class=" errTip "></div>
+                        </div>
+                        <input type="submit" class=" login-button login-button1 submit" value="下一步" name="submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- footer -->
+        <div class=" register-footer ">
+            <div class="service">
+                <a href="script:;" class="to-service">
+                    <img src="https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/online-service.0c3db86.png.webp"
+                        alt="">
+                    <span class="online-person"> 在线客服</span>
+                </a>
+                <a class="to-service">
+                    <img src="https://accountstatic.vivo.com.cn/accountstatic.vivo.com.cn/static/img/tel.8e75c45.png.webp" alt=""
+                        class="phone">
+                    <span class="hot-line"> 400-678-9688(24小时全国服务热线)</span>
+                </a>
+            </div>
+            <div class="copyright">
+                COPYRIGHT ©2011-2018 网易严选 版权所有 保留一切权利 | 隐私政策 | 法律声明 | 粤B2-20080267 | 粤ICP备05100288号
+            </div>
+        </div>
+    </div>
+    <script src="../script/jquery.js"></script>
+    <script src="../script/ajax.js"></script>
+    <script src="../script/reg.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+@charset 'utf-8';
+.productlist {
+    overflow: hidden;
+    margin-top: 50px;
+    box-sizing: border-box;
+    .item {
+        float: left;
+        margin: 30px;
+        width: 300px;
+        transition: all .5s;
+        text-align: center;
+        &:hover {
+            margin-top: 28px;
+            box-shadow: 5px 5px 5px 0 #ccc;
+        }
+        &>a {
+            display: block;
+            .p-img>img {
+                width: 265px;
+                height: 265px;
+            }
+            .p-title>a {
+                color: #000;
+                font-size: 13px;
+                font-weight: 600;
+                &>a:hover {
+                    color: #b4a078;
+                }
+            }
+            .p-price {
+                color: #f00;
+            }
+        }
+    }
+}

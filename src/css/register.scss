@@ -1,0 +1,198 @@
+.register {
+    background: #fff;
+    .section {
+        width: 860px;
+        min-height: 468px;
+        background: #fff;
+        margin: 0 auto;
+        margin-top: 80px;
+        overflow: hidden;
+        padding-top: 100px;
+        .logo-area {
+            width: 150px;
+            height: 42px;
+            margin: 0 auto;
+            margin-top: 60px;
+            .vivo-logo-box {
+                width: 160px;
+                height: 42px;
+                margin: 0 auto;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+            }
+        }
+        .title-item {
+            margin-top: 30px;
+            .title {
+                font-family: HYQiHei-FZS;
+                font-size: 22px;
+                color: #000;
+                text-align: center;
+            }
+        }
+        .outer-box {
+            width: 360px;
+            margin: 0 auto;
+            margin-top: 60px;
+            margin-bottom: 100px;
+            .inner-box {
+                width: 360px;
+                .country-box {
+                    height: 48px;
+                    background-color: #fff;
+                    // border: 1px solid #dedfe0;
+                    font-size: 16px;
+                    color: #000;
+                    // padding-left: 12px;
+                    line-height: 48px;
+                    position: relative;
+                    cursor: pointer;
+                    .show-country {
+                        height: 46px;
+                        position: relative;
+                        .arrow {
+                            width: 18.8px;
+                            height: 10.2px;
+                            float: right;
+                            position: absolute;
+                            top: 19px;
+                            right: 15.2px;
+                            img {
+                                width: 18.8px;
+                                height: 10.2px;
+                                vertical-align: top;
+                            }
+                        }
+                    }
+                }
+            }
+            .hint {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #999;
+                line-height: 19px;
+            }
+            .phone-box {
+                margin:10px 0;
+                height: 48px;
+                border: 1px solid #dedfe0;
+                cursor: pointer;
+                .phone-code {
+                    width: 100px;
+                    height: 46px;
+                    // padding-left: 12px;
+                    line-height: 46px;
+                    font-size: 16px;
+                    color: #000;
+                    float: left;
+                    position: relative;
+                    text-align: center;
+                    .form-control {
+                        position: relative;
+                        height: 100%;
+                        border: none;
+                        box-shadow: none;
+                    }
+                }
+                input {
+                    float: left;
+                    width: 252px;
+                    font-size: 16px;
+                    color: #252525;
+                    height: 46px;
+                    line-height: 46px;
+                    border: none;
+                    outline: none;
+                }
+            }
+             .user-box {
+                margin:20px 0;
+                height: 48px;
+                border: 1px solid #dedfe0;
+                cursor: pointer;
+                padding-left: 12px;
+                input {
+                    width: 252px;
+                    font-size: 16px;
+                    color: #252525;
+                    height: 46px;
+                    line-height: 46px;
+                    border: none;
+                    outline: none;
+                }
+            }
+            .pass-box {
+                margin:10px 0;
+                height: 48px;
+                border: 1px solid #dedfe0;
+                cursor: pointer;
+                padding-left: 12px;
+                input {
+                    width: 252px;
+                    font-size: 16px;
+                    color: #252525;
+                    height: 46px;
+                    line-height: 46px;
+                    border: none;
+                    outline: none;
+                }
+            }
+            .time-holder {
+                margin-top: 20px;
+                font-size: 14px;
+                height: 20px;
+                line-height: 20px;
+                .span1 {
+                    margin-left: 8px;
+                    color: #252525;
+                }
+                .span2 {
+                    color: #009bfd;
+                    cursor: pointer;
+                }
+            }
+            .login-button {
+                width: 100%;
+                height: 48px;
+                background-color: #46a1fa;
+                background-image: linear-gradient(90deg, #46a1fa, #067df8);
+                font-size: 17px;
+                color: #fff;
+                margin-top: 20px;
+                border: none;
+            }
+        }
+    }
+    .register-footer {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 11px;
+        color: #9d9d9d;
+        .service {
+            a {
+                text-decoration: none;
+                color: #666;
+            }
+            .to-service {
+                img {
+                    width: 16px;
+                    height: 14px;
+                    vertical-align: text-bottom;
+                }
+                .phone {
+                    width: 12px;
+                    height: 15px;
+                }
+            }
+        }
+        .copyright {
+            padding: 10px 0;
+            font-size: 10px;
+            box-sizing: border-box;
+        }
+    }
+}

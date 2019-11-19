@@ -1,0 +1,125 @@
+@charset "UTF-8";
+div,
+p,
+ul,
+dl,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+fieldset,
+legend,
+input,
+img,
+select,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+b,
+i,
+em,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dfn {
+  font-style: normal;
+  font-weight: normal;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0 auto;
+  font: 16px "微软雅黑";
+  background-color: #f7f7f7;
+}
+
+a {
+  color: #666;
+}
+
+input {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  outline: none;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+th {
+  display: table-cell;
+  vertical-align: inherit;
+}
