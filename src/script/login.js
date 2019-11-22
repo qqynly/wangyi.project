@@ -7,7 +7,7 @@
         let $pval = $user_pwd.val();
         $.ajax({
             type: "post",
-            url: "http://127.0.0.1:8080/wangyi.project/src/php/login.php",
+            url: "http://127.0.0.1:8080/project/src/php/login.php",
             data: {
                 "user_name": $uval,
                 "user_pwd": $pval

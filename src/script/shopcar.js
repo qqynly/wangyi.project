@@ -46,7 +46,7 @@
                                 </div>
                                 <div class="cell b-quantity">
                                     <div class="quantity-form">
-                                        <input type="number" value="${num}">
+                                        <input type="number" value="${num}" min="1">
                                     </div>
                                 </div>
                                 <div class="cell b-sum">
@@ -65,12 +65,13 @@
                 });//追加数据
                 //计算物品总价
                 const $one = $('.b-price strong').parents('.goods-info').find('.quantity-form input');
-                console.log($one)
-
+                // console.log($one.val())
+                const $allPrice = $('.price-sum .totalprice');//获取总价的dom
+                // console.log($allPrice.html().slice(1))
 
                 const $pricebutton = $('.quantity-form input');//点击添加按钮即数量
                 const $price = $pricebutton.parents('.goods-info').find('.b-sum strong').html().slice(0, -1);//获取单价
-                // console.log($price)
+                console.log($price)
 
 
                 $(document).ready(function () {

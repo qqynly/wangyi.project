@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
     $user_tel = $_POST['user_tel'];
     $user_pwd = sha1($_POST['user_pwd']);
    $mysqli->query("INSERT INTO `users` (`id`, `user_name`, `user_tel`, `user_pwd`) VALUES (NULL, '$user_name', '$user_tel', '$user_pwd')");
-   echo '<script> location.href = "http://127.0.0.1:8080/wangyi.project/src/html/login.html"</script>';
+   echo '<script> location.href = "http://127.0.0.1:8080/project/src/html/login.html"</script>';
 };
 ?>
 

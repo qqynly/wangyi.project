@@ -57,7 +57,7 @@
         }
 
     });
-
+ 
 
     //tab切换
     // console.log($('.clear li img'));
@@ -70,7 +70,7 @@
 
 
 
-    //cookie
+    //cookie  
     let arrsid = [];
     let arrnum = [];
     //如果cookie存在，获取cookie的值，并转换成数组。
